@@ -1,177 +1,245 @@
-
-*{
-    padding: 0px;
-    margin: 0px;
-    background-color: #e2e7e6;
+body{
+    background-color: #f3f3f3;
 }
-
-.nav{
-    width: 80%;
-    height: 60px;
-    margin-left: 10%;
-    margin-top: 5px;
-    background-color:white;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-.navcon{
-    height:40px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e2e7e6;
-    border-radius: 10px;
-    font-size: 18px;
-}
-.navcon:hover{
-    background-color: rgb(187, 73, 187);
-    color: white;
-}
-
-.page1{
-    height: 800px;
-    width: 90%;
-    background-color: white;
-    margin-left: 5%;
-    border-radius: 5px;
-    padding-top: 5px;
-}
-
- #firstname{
-    margin: 8px;
-    font-size: 30px;
-    color: rgb(19, 19, 95);
-    background-color: #fff;
-
-}
-#lastname{
-    margin: 20%;
-    font-size: 30px;
-    color: rgb(12, 12, 95);
-    background-color: #fff;
-}
-.place{
-    font-size: 25px;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff;
-}
-#p1{
-    font-size: 25px;
-    color: rgb(19, 19, 95);
-    background-color: #fff;
-    margin-left: 5px;
-}
-.place2{
-    font-size: 25px;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    width: 80%;
-    background-color: #fff;
-} 
-
- .radiobtn{
-    margin-left: 15px;
-   
- }
-  
- .sub{
-    background-color: purple;
-    height: 45px;
-    width: 100px;
-    margin-left: 5px;
-    font-size: 25px;
-    color: white;
-    border-radius: 5px;
- }
- .getcode{
-    background-color: purple;
-    height: 45px;
-    width: 200px;
-    margin-left: 5px;
-    font-size: 25px;
-    color: white;
-    border-radius: 5px;
- }
-/* // page no2 */
- .page2{
-    height: 900px;
-    width: 90%;
-    background-color: white;
-    margin-left: 5%;
-    border-radius: 5px;
-    padding-top: 5px;
-    
- }
-
- .dropfiles{
-    height: 100px;
-    width: 80%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border: 1px solid black;
-    background-color: white; 
+h1{
     text-align: center;
-
- }
-.p{
-    background-color: white ;
- }
- .x{
-font-size: 40px;
-width: 80%;
-margin: 5px;
-border-radius: 5px;
-display: flex;
-padding: 20px;
-gap: 66%;
- }
-
-#x{
-    font-size: 40px;
-    width: 80%;
-    margin: 5px;
-    border-radius: 5px;
-    display: flex;
-    padding: 20px;
-    gap: 69%;
+    color: blue;
 }
 
-.sendfile{
-    font-size: 40px;
-    width: 83%;
+.navbar{
     height: 60px;
-    margin: 5px;
-    border-radius: 5px;
-    color: wheat;
-    display: flex;
-   align-items: center;
-   justify-content: center;
-    background-color: purple;
-}
-
-  /* page no3 */
-.page3{
-    height: 800px;
-    width: 90%;
+    width: 60%;
+    margin: auto;
     background-color: white;
-    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     border-radius: 10px;
+}
+.navbar div{
+    height: 40px;
+    width: 100px;
+    background-color: #f3f3f3;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.navbar div a{
+    text-decoration: none;
+    
+}
+.navbar div:hover{
+    background-color:rgb(28, 28, 151);
+    color: white;
+}
+.navbar div:hover a{
+    color: white;
+}
+.contaner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.con1{
+    margin: 10px;
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+     border-radius: 10px;
+    background-color: white;
+    color: rgb(28, 28, 151);
+
+
+}
+.con1 #name{
+    padding: 10px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid navy;
     border-radius: 5px;
-    padding-top: 5px;
+}
+.con1 #button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 238);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.con1 #button:active{
+    background-color:rgb(184, 184, 226);
 }
 
-#h2{
-    background-color: #fff;
+/* CONTANER TWO */
+
+.con2{
+    
+     margin: 10px;
+     width: 100%;
+    height: 600px;
+    padding: 10px;
+    font-size: 15px;
+     border-radius: 10px;
+    background-color: white;
+    color: rgb(28, 28, 151);
 }
 
-#textarea{
-    background-color: #fff;
-    width: 50%;
+.con2 #name{
+    padding: 10px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+.con2 #button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 238);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.con2 ul{
+    list-style-type: none;
+}
+#banner::before{
+    content:"💴" ;
+}
+#banner::after{
+    content: "❌";
+}
+#design::before{
+    content:"📦" ;
+}
+#design::after{
+    content: "⌛";
+}
+.con2 #button:active{
+    background-color:rgb(184, 184, 226);
+}
+
+
+/* CONTANER THREE */
+.con3{
+    margin: 10px;
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+     border-radius: 10px;
+    background-color: white;
+    color: rgb(28, 28, 151);
+}
+.con3 #name{
+    padding: 10px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+.con3 #button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 238);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/* CONTANER ROUR */
+
+.con4{
+    margin: 10px;
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+     border-radius: 10px;
+    background-color: white;
+    color: rgb(28, 28, 151);
+}
+.con4 #name{
+    padding: 10px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+.con4 #button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 238);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.con4 #button:active{
+    background-color:rgb(184, 184, 226);
+}
+
+.con5{
+    margin: 10px;
+    margin-right:20px ;
+    height: 500px;
+    width: 97%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(28, 28, 151);
+
+
+}
+.con5 #name{
+    padding: 10px;
+    width: 80%;
+    margin-top: 5px;
+    border: 1px solid navy;
+    border-radius: 5px;
+}
+.con5 #button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 116, 238);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.con5 #button:active{
+    background-color:rgb(184, 184, 226);
+}
+
+
+@media screen and (max-width:600px){
+    .navbar, .navbar div, body, .con2, .con1{
+        width: 100%;
+    }
 }

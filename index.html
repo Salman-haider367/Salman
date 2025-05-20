@@ -7,71 +7,102 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="nav">
-        <div class="navcon">All</div>
-        <div class="navcon">Contect</div>
-        <div class="navcon">File Uplord</div>
-        <div class="navcon">Chatbox</div>
-        <div class="navcon">RSVP</div>
-        <div class="navcon">Appointment</div>
-    </nav> <br><br>
-
-    <div class="page1">
-        <span id="firstname">first name</span>
-        <span id="lastname">last name</span><br><br>
-        <input type="text" name="" id="" class="place" placeholder="Enter your first name">
-        <input type="text" name="" id="" class="place" placeholder="Enter your last name"><br><br>
-        <p id="p1">Many guest are you bringing?</p><br>
-        <input type="text" class="place2" placeholder="5"><br>
-        <span id="firstname">Event Date</span>
-        <span id="lastname">Event Time</span><br><br>
-        <input type="text" name="" id="" class="place" placeholder="DD/MM/YYYY">
-        <input type="text" name="" id="" class="place" placeholder="11.AM"><br><br>
-        <p id="p1">Are you coming to the event?</p><br>
-        
-        <input type="radio" name="yes" class="radiobtn">  yes
-        <input type="radio" name="no" class="radiobtn">  no <br><br>
-        <button class="sub">submit</button>         <br><br><br><hr><br><br>
-        <h1 style="background-color: white;">Fully Working RSVP HTML FORM</h1> <br> <br>
-        <button class="getcode">Get the code</button>
-    </div>  <br> <br>
-    
-    <div class="page2">
-        <span id="firstname">Send files to this Email</span> <br><br>
-        <input type="email" name="" id="" class="place" placeholder="example@gmail.com"> <br><br>
-        <p id="p1">Upload Files</p><br>
-        <div class="dropfiles">
-            <p class="p">Drop files here</p> <br>
-            <p  class="p">or</p> <br>
-            <button  class="p">browse</button>
-        </div> <br><br>
-        <div class="x">banner-design.png   <p>x</p></div>
-        <div id="x">template-file-zip       <p>x</p></div>
-        <div class="sendfile"> send file</div><br> <hr> <br>
-        <h1 style="background-color: white;">Fully Upload HTML FORM template </h1> <br> <br>
-        <button class="getcode">Get the code</button>
-    </div> <br><br>
-   
-    <div class="page3">
-          
-        <span id="firstname">Full Name</span> <br>
-        <input type="text" name="" id="" class="place" placeholder="First and Last"> <br><br>
-
-       
-        <span id="firstname">Email Address</span> <br>
-        <input type="email" name="" id="" class="place" placeholder="Example@gmail.com"> <br><br>
-
-        <span id="firstname">Subject</span> <br>
-        <input type="text" name="" id="" class="place" placeholder="Enter your Subject"> <br><br>
-
-       <h2 id="h2">massage</h2><br>
-       <textarea name="feedback" id="textarea" placeholder="Type your massage" rows="5">     </textarea><br> <br>
-       <button class="sub">submit</button>   <br><br> <hr>
-      
-       <h1 style="background-color: white;">Fully working HTML Contact FORM  </h1> <br> <br>
-       <button class="getcode">Get the code</button>
-
+<h1>fully Working HTML & CSS Form</h1>
+    <div class="navbar">
+      <div><a href="index.html">All</a></div>
+      <div><a href="contact form.html">Contact</a></div>
+      <div><a href="file uppload.html">File Upload</a></div>
+      <div><a href="chatbox.html">Chatbox</a></div>
+      <div><a href="rsvp.html">RSVP</a></div>
+      <div><a href="Appointment.html">Appointment</a></div>
     </div>
-   
+
+  <div class="contaner">
+
+     <div class="con1">
+    <h3>Contact Form</h3>
+    <label for="name">Full Name</label><br>
+    <input type="text" id="name" placeholder="Enter your First Name"><br>
+  <label for="name">Email</label><br>
+  <input type="email" name="" id="name" placeholder="kalyarsalman03@gmail.com"><br>
+<label for="name">subject</label><br>
+<input type="text" id="name" placeholder="Subject"><br>
+<label for="name">Message</label><br>
+<textarea name="" id="name" placeholder="Write your mesage...." rows="3"
+cols="5"></textarea> <br>
+<label for="button"></label>
+<button type="submit" id="button">Submit</button> 
+</div>
+
+<div class="con2">
+  <h3>File Uppload</h3><br>
+  <label for="name">Email</label><br>
+  <input type="email" id="name" placeholder="Enter your email"><br>
+  <label for="name">Upload File</label><br>
+  <input type="file" id="name" accept="image/png, image/jpg, image/php"><br>
+  <ul>
+    <li id="banner">banner.png</li>
+    <li id="design">design.zip</li><br>
+    <label for="button"></label>
+    <button type="submit" id="button">Send File</button> 
+  </ul>
+</div>
+
+<div class="con3">
+  <h3>Chatbox</h3><br>
+  <label for="name">Your Name</label><br>
+  <input type="text" id="name" placeholder="Enter Your Name"><br>
+  <label for="name">Message</label><br>
+<textarea name="" id="name" placeholder="Write your mesage...." rows="3"
+cols="5"></textarea> <br>
+<label for="button"></label>
+<button type="submit" id="button">Send</button> 
+</div>
+
+<div class="con4">
+  <h3>RSVP</h3><br>
+   <label for="name">First Name</label><br>
+    <input type="text" id="name" placeholder="Enter your First Name"><br>
+ <label for="name">Last Name</label><br>
+    <input type="text" id="name" placeholder="Enter your Last Name"><br>
+<label for="name">Phone</label><br>
+<input type="tel" id="name" placeholder="0346-7795804" pattern="[0-9]{4}-[0-9]{7}"><br>
+<label for="name">Date</label><br>
+<input type="date" id="name" placeholder="dd/mm/yyyy"><br>
+<label for="name">Time</label><br>
+<input type="time" placeholder="HH:MM:SS"><br>
+<label for="name">Reason</label><br>
+<textarea name="" id="name" placeholder="Reason for appointment" rows="3"
+cols="5"></textarea> <br>
+<h3>Attending?</h3><br>
+<label for="yes">Yes</label>
+<input type="radio" id="yes" value="Yes" name="title">
+<label for="no">No</label>
+<input type="radio" id="no" value="No" name="title"><br>
+<label for="button"></label>
+    <button type="submit" id="button">Book Now</button> 
+
+
+</div>
+  </div>
+<div class="con5">
+  <h3>Appointment Booking</h3>
+  <label for="name">First Name</label><br>
+    <input type="text" id="name" placeholder="Enter your First Name"><br>
+ <label for="name">Last Name</label><br>
+    <input type="text" id="name" placeholder="Enter your Last Name"><br>
+<label for="name">Phone</label><br>
+<input type="tel" id="name" placeholder="0346-7795804" pattern="[0-9]{4}-[0-9]{7}"><br>
+<label for="name">Date</label><br>
+<input type="date" id="name" placeholder="dd/mm/yyyy"><br>
+<label for="name">Time</label><br>
+<input type="time" placeholder="HH:MM:SS"><br>
+<label for="name">Reason</label><br>
+<textarea name="" id="name" placeholder="Reason for appointment" rows="3"
+cols="5"></textarea> <br>
+<label for="button"></label>
+    <button type="submit" id="button">Book Now</button> 
+
+</div>
 </body>
 </html>
